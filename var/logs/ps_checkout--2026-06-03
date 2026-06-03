@@ -1,0 +1,7 @@
+[2026-06-03T11:34:41.240628+02:00] ps_checkout.INFO: ExecKernelCacheClearer: Successfully cleared cache for prod env admin [] {"process_id":23720}
+[2026-06-03T11:35:13.205082+02:00] ps_checkout.INFO: ExecKernelCacheClearer: Successfully warmed up cache for admin env prod [] {"process_id":23720}
+[2026-06-03T11:35:13.205562+02:00] ps_checkout.DEBUG: SymfonyCacheClearer: No symfony cache to clear for admin-api env prod [] {"process_id":23720}
+[2026-06-03T11:35:13.205698+02:00] ps_checkout.DEBUG: SymfonyCacheClearer: No symfony cache to clear for front env prod [] {"process_id":23720}
+[2026-06-03T11:35:13.213542+02:00] ps_checkout.DEBUG: SymfonyCacheClearer: No symfony cache to clear for admin env dev [] {"process_id":23720}
+[2026-06-03T11:35:13.213864+02:00] ps_checkout.DEBUG: SymfonyCacheClearer: No symfony cache to clear for admin-api env dev [] {"process_id":23720}
+[2026-06-03T11:35:13.213955+02:00] ps_checkout.DEBUG: SymfonyCacheClearer: No symfony cache to clear for front env dev [] {"process_id":23720}

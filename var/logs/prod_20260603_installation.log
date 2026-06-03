@@ -1,0 +1,44 @@
+*INFO* 	v9.1.3	2026/06/03 - 11:17:28: Installing database
+*INFO* 	v9.1.3	2026/06/03 - 11:17:28: Dropping database tables
+*INFO* 	v9.1.3	2026/06/03 - 11:17:36: Installing default data
+*INFO* 	v9.1.3	2026/06/03 - 11:17:36: Truncating database
+*INFO* 	v9.1.3	2026/06/03 - 11:17:49: Creating shop
+*INFO* 	v9.1.3	2026/06/03 - 11:17:50: Installing languages: en
+*INFO* 	v9.1.3	2026/06/03 - 11:18:13: Populating database
+*INFO* 	v9.1.3	2026/06/03 - 11:18:17: Configuring shop
+*INFO* 	v9.1.3	2026/06/03 - 11:18:22: Installing modules on disk
+*INFO* 	v9.1.3	2026/06/03 - 11:19:22: Installing theme hummingbird
+*INFO* 	v9.1.3	2026/06/03 - 11:20:41: Installing fixtures
+*ERROR* 	v9.1.3	2026/06/03 - 11:31:09: PrestaShopException: Link to database cannot be established: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp\htdocs\prestashop\classes\db\DbPDO.php:117
+Stack trace:
+#0 C:\xampp\htdocs\prestashop\classes\db\Db.php(364): DbPDOCore->connect()
+#1 C:\xampp\htdocs\prestashop\classes\db\Db.php(728): DbCore->query('INSERT INTO `of...')
+#2 C:\xampp\htdocs\prestashop\classes\db\Db.php(461): DbCore->q('INSERT INTO `of...', true)
+#3 C:\xampp\htdocs\prestashop\classes\Category.php(1687): DbCore->insert('ofefp_category_...', Array)
+#4 C:\xampp\htdocs\prestashop\classes\Category.php(1790): CategoryCore->addGroups(Array)
+#5 C:\xampp\htdocs\prestashop\classes\Category.php(217): CategoryCore->updateGroup(Array)
+#6 C:\xampp\htdocs\prestashop\src\PrestaShopBundle\Install\XmlLoader.php(513): CategoryCore->add(true, false)
+#7 C:\xampp\htdocs\prestashop\src\PrestaShopBundle\Install\XmlLoader.php(331): PrestaShopBundle\Install\XmlLoader->createEntity('category', 'Accessories', '\\Category', Array, Array)
+#8 C:\xampp\htdocs\prestashop\src\PrestaShopBundle\Install\XmlLoader.php(231): PrestaShopBundle\Install\XmlLoader->populateEntity('category')
+#9 C:\xampp\htdocs\prestashop\install\fixtures\fashion\install.php(43): PrestaShopBundle\Install\XmlLoader->populateFromXmlFiles()
+#10 C:\xampp\htdocs\prestashop\src\PrestaShopBundle\Install\Install.php(1128): InstallFixturesFashion->populateFromXmlFiles()
+#11 C:\xampp\htdocs\prestashop\src\PrestaShopBundle\Install\Install.php(1258): PrestaShopBundle\Install\Install->PrestaShopBundle\Install\{closure}()
+#12 C:\xampp\htdocs\prestashop\src\PrestaShopBundle\Install\Install.php(1127): PrestaShopBundle\Install\Install->callWithUnityAutoincrement(Object(Closure))
+#13 C:\xampp\htdocs\prestashop\install\controllers\http\process.php(278): PrestaShopBundle\Install\Install->installFixtures(NULL, Array)
+#14 C:\xampp\htdocs\prestashop\install\controllers\http\process.php(96): InstallControllerHttpProcess->processInstallFixtures()
+#15 C:\xampp\htdocs\prestashop\install\classes\controllerHttp.php(245): InstallControllerHttpProcess->process()
+#16 C:\xampp\htdocs\prestashop\install\index.php(36): InstallControllerHttp::execute()
+#17 {main}
+*INFO* 	v9.1.3	2026/06/03 - 11:35:15: Installing database
+*INFO* 	v9.1.3	2026/06/03 - 11:35:15: Dropping database tables
+*INFO* 	v9.1.3	2026/06/03 - 11:35:30: Installing default data
+*INFO* 	v9.1.3	2026/06/03 - 11:35:30: Truncating database
+*INFO* 	v9.1.3	2026/06/03 - 11:35:37: Creating shop
+*INFO* 	v9.1.3	2026/06/03 - 11:35:37: Installing languages: en
+*INFO* 	v9.1.3	2026/06/03 - 11:36:02: Populating database
+*INFO* 	v9.1.3	2026/06/03 - 11:36:06: Configuring shop
+*INFO* 	v9.1.3	2026/06/03 - 11:36:10: Installing modules on disk
+*INFO* 	v9.1.3	2026/06/03 - 11:37:05: Installing theme hummingbird
+*INFO* 	v9.1.3	2026/06/03 - 11:38:06: Installing fixtures
+*INFO* 	v9.1.3	2026/06/03 - 11:39:40: The admin folder was renamed into admin451ll3oq8sp7tz4xqpx/
+*INFO* 	v9.1.3	2026/06/03 - 11:39:41: You can now access your backoffice at http://127.0.0.1/prestashop/admin451ll3oq8sp7tz4xqpx/.
