@@ -1,0 +1,42 @@
+.tier-pricing-card {
+    margin-bottom: 25px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.tier-pricing-card .card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+    padding: 12px 15px;
+}
+
+.tier-pricing-card .card-body {
+    padding: 15px;
+}
+
+.progress {
+    height: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: #28a745;
+    font-weight: bold;
+    transition: width 0.5s ease;
+}
+
+.discount-banner {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.discount-banner i {
+    float: right;
+    font-size: 24px;
+}
+
+.discount-banner strong {
+    font-size: 16px;
+}
